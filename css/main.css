@@ -1,0 +1,288 @@
+html {box-sizing: border-box}
+
+*, *:before, *:after {box-sizing: inherit}
+
+:focus {outline: none}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,
+img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,
+dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,
+thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,
+header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+	font-family: 'Aileron Light', sans-serif;
+}
+
+
+@font-face {font-family: 'Aileron Light'; src: url(../fonts/Aileron-Light.otf);}
+@font-face {font-family: 'Aileron Heavy'; src: url(../fonts/Aileron-Heavy.otf);}
+
+nav li a {
+	color: #fff;
+}
+
+/* Haus */
+
+nav li:nth-child(1) {
+    background-color: #FF3F2B;
+    border-color: #FF3F2B
+}
+
+nav li:nth-child(1):hover {
+    background-color: #FF6454;
+    border-color: #FF6454
+}
+
+
+/* Aha! */
+
+nav li:nth-child(2) {
+    background-color: #62F5EB;
+    border-color: #62F5EB
+}
+
+nav li:nth-child(2):hover {
+    background-color: #99FFF9;
+    border-color: #99FFF9
+}
+
+
+/* Exposure */
+
+nav li:nth-child(3) {
+    background-color: #00FF00;
+    border-color: #00FF00
+}
+
+nav li:nth-child(3):hover {
+    background-color: #7AFF7A;
+    border-color: #7AFF7A
+}
+
+
+
+/* Assembly */
+
+nav li:nth-child(4) {
+    background-color: #766CFD;
+    border-color: #766CFD
+}
+
+nav li:nth-child(4):hover {
+    background-color: #bbb6fe;
+    border-color: #bbb6fe
+}
+
+
+
+/* Taratahi */
+
+
+nav li:nth-child(5) {
+    background-color: #3B67F0;
+    border-color: #3B67F0
+}
+
+nav li:nth-child(5):hover {
+    background-color: #9db3f8;
+    border-color: #9db3f8
+}
+
+
+
+/* Science Hub */
+
+
+nav li:nth-child(6) {
+    background-color: #2995FA;
+    border-color: #2995FA
+}
+
+nav li:nth-child(6):hover {
+    background-color: #94cafd;
+    border-color: #94cafd
+}
+
+
+
+/* Lucky */
+
+
+nav li:nth-child(7) {
+    background-color: #5EDDE6;
+    border-color: #5EDDE6
+}
+
+nav li:nth-child(7):hover {
+    background-color: #afeef3;
+    border-color: #afeef3
+}
+
+
+
+/* Spec Arc */
+
+nav li:nth-child(8) {
+    background-color: #38DC7C;
+    border-color: #38DC7C
+}
+
+nav li:nth-child(8):hover {
+    background-color: #9ceebe;
+    border-color: #9ceebe
+}
+
+
+
+
+
+nav li:nth-child(9) {
+    background-color: #424242;
+    border-color: #424242
+}
+
+nav li:nth-child(9):hover {
+    background-color: #a1a1a1;
+    border-color: #a1a1a1
+}
+
+
+
+
+
+
+article:first-child header:hover svg,
+nav li:first-child:hover svg {
+    fill: #fff
+}
+
+nav li:last-child h1 {
+    color: #FFF
+}
+
+body {
+    line-height: 1.35
+}
+
+@media (max-width: 666px),
+(max-height: 450px) {
+    nav h1 {
+        font-size: 1rem
+    }
+}
+
+
+nav {
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    transition: height 0.2s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #DDD
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+nav li {
+	font-family: 'Aileron Light';
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    transition: .2s;  
+  	transition-property:  all;
+  	transition-duration: 0.2s;
+  	transition-timing-function: ease-in-out;
+
+}
+
+nav a {
+    flex: 1;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    visibility: hidden
+}
+
+nav.expanded a {
+    visibility: visible
+}
+
+
+nav h1 {
+    display: inline-block;
+    vertical-align: middle
+}
+
+article header .wrapper,
+article .content,
+nav a {
+    max-width: 51.875rem;
+    margin: 0 auto;
+    padding: 0 1rem
+}
+
+@media (max-width: 666px) {
+    article header .wrapper,
+    article .content,
+    nav a {
+        margin: 0
+    }
+}
+
+#haus {
+    font-size: 1.2rem
+}
+
+@media (max-width: 666px) {
+    #haus header {
+        margin-bottom: 2.5rem
+    }
+    #haus header .title {
+        margin-bottom: 0.5rem
+    }
+}
+
+@media (min-width: 666px) {
+    #haus header .wrapper {
+        display: flex
+    }
+    #haus header .title,
+    #haus header .subtitle {
+        flex: 1 1 50%;
+        margin: 0
+    }
+    #haus header .subtitle .subwrapper {
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%)
+    }
+}
