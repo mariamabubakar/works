@@ -704,6 +704,9 @@ a .link {
 
 /* COLOUR */
 
+
+#ninja .header {background-color: #ff343a;}
+
 .black-text {color: #000;}
 .white-text {color: #fff}
 
@@ -712,7 +715,7 @@ a .link {
 .haus-orange-text {color: #FF3F2B;}
 .haus-orange-bg {background-color: #FF3F2B;}
 
-#haus .header { background-color: #fff; }
+#haus .header { background-color: #FF3F2B; }
 #haus .link {border-color: #FF3F2B;}
 #haus .link:hover {background-color: #FF3F2B;}
 #haus .circle {border-color: #FFf;}
@@ -725,7 +728,7 @@ a .link {
 .aha-pearl-text {color: #BF4ABE;}
 .aha-pearl-bg {background-color: #BF4ABE;}
 
-#aha .header { background-color: ; }
+#aha .header { background-color: #BF4ABE; }
 #aha .image-text-box { padding-top: 0px; }
 #aha .link {border-color: #BF4ABE;}
 #aha .link:hover {background-color: #BF4ABE;}
