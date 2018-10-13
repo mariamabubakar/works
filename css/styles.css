@@ -70,13 +70,13 @@ body {
 }
 
 
-body {font-family: 'Relative-Mono', sans-serif;
+body {font-family: 'Relative-Mono', 'Courier', sans-serif;
     font-weight: normal;
 }
 
 h1  {
 	font-size: 4em;
-	font-family: 'Relative-Book', serif;
+	font-family: 'Relative-Book', 'Helvetica', sans-serif;
     line-height: 1em;
     margin-bottom: 8px;
     margin-top: -4px;
@@ -87,7 +87,7 @@ nav h1 {margin-bottom: 0em;}
 
 h2  {
 	font-size: .9em;
-	font-family: 'Relative-Mono', sans-serif;
+	font-family: 'Relative-Mono', 'Courier', sans-serif;
     letter-spacing: 0px;
     text-transform: uppercase;
     line-height: .9em;
@@ -97,7 +97,7 @@ h2  {
 
 h3  { 
 	font-size: .9em; /*20px*/
-	font-family: 'Relative-Mono', sans-serif;
+	font-family: 'Relative-Mono', 'Courier', sans-serif;
 	color: #000;
 	display: block;
 	clear: both;
@@ -127,7 +127,7 @@ h4 {
 
 p {
 	font-size: .9em;
-	font-family: 'Relative-Mono', sans-serif;
+	font-family: 'Relative-Mono', 'Courier', sans-serif;
 	line-height: 1.2;
 	margin-bottom: 20px;
 }
@@ -372,7 +372,7 @@ p {
 
 
 #intro h1 {
-    font-family: 'Relative-Book', sans-serif;
+    font-family: 'Relative-Book', 'Helvetica', sans-serif;
     letter-spacing: .3px;
     color: #000;
     font-size: 2.5em;
@@ -392,7 +392,7 @@ p {
 }
 
 #intro-love h1 {
-    font-family: 'Relative-Book', sans-serif;
+    font-family: 'Relative-Book', 'Helvetica', sans-serif;
     letter-spacing: .3px;
     color: #000;
     font-size: 2.5em;
@@ -622,7 +622,7 @@ a .link {
 
 .project-deliverables li {
     font-size: .9em;
-    font-family: 'Relative-mono', sans-serif;
+    font-family: 'Relative-Mono', 'Courier', sans-serif;
 	margin-bottom: 20px;
     display: inline-block;
     width: 190px;
@@ -667,7 +667,7 @@ a .link {
 }
 
 .credits p {
-    font-family: 'Relative-mono', sans-serif;
+    font-family: 'Relative-Mono', 'Courier', sans-serif;
     letter-spacing:     ;
     text-transform: ;
     line-height: 1.4em;
