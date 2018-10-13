@@ -827,7 +827,6 @@ a .link {
 
 
 
-
 /*Footer*/
 
 .footer {
@@ -839,6 +838,8 @@ a .link {
     /*height: 100vh;*/
     z-index: 100000;
 }
+
+
 
 .footer-link {
     display: block;
