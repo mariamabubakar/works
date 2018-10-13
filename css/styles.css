@@ -1,18 +1,4 @@
 
-/*UNIVERSAL*/
-
-/*.cur1 {
-  cursor: url('..//img/cur1.svg');
-}
-
-.cur1 {
-  cursor: url('..//img/cur1.svg'),
-  auto;
-}*/
-
-
-/** {border: 1px red solid;}*/
-
 /* Reset */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ol, ul, li, text-decoration { 
 	margin: 0; 
@@ -167,7 +153,7 @@ p {
 
 
 /*dropdown hover*/
-.dropbtn {
+/*.dropbtn {
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -185,7 +171,6 @@ p {
     position: relative;
     width: 90px;
     background-color: transparent;
-  /*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
     z-index: 1;
 }
 
@@ -201,7 +186,6 @@ p {
     position: relative;
     width: 90px;
     background-color: transparent;
-  /*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
     z-index: 1;
 }
 
@@ -223,7 +207,7 @@ p {
     display: block !important;
     clear: both;
 }
-
+*/
 
 
 
@@ -251,8 +235,8 @@ p {
 .underline-assembly:hover {padding:1px; background-color: #3246C8;}
 
 
-.underline-ninja {padding:1px; border-bottom: solid red 1px;}
-.underline-ninja:hover {padding:1px; background-color: red;}
+.underline-ninja {padding:1px; border-bottom: solid #ff343a 1px;}
+.underline-ninja:hover {padding:1px; background-color: #ff343a;}
 
 
 .underline-exposure {padding:1px; border-bottom: solid #00FF00 1px;}
@@ -295,8 +279,6 @@ p {
 	transition-property: ease-in ease-in-out;
 	transition-duration: .2s;
 }
-
-.link:hover {margin-right: 5px;}
 
 
 .link-foundry {
@@ -599,15 +581,23 @@ section {max-width: 100%;}
     color: #000;
 }
 
+.info-block h1 {
+    margin-top: -16px;
+}
+
 .project-intro {
 	float: right;
 	max-width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding-left: 25px;
 }
 
 .project-intro p {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+a .link {
+    margin-bottom: 30px !important;
 }
 
 /*.project-intro .heading {
@@ -622,10 +612,9 @@ section {max-width: 100%;}
 }
 
 .project-deliverables {
-	float: right;
-	width: 50%;
-	margin-right: 10px;
-    padding-left: 27px;
+    margin-top: 18px;
+	float: left;
+/*	width: 50%;*/
 }
 
 .project-deliverables li {
@@ -634,6 +623,7 @@ section {max-width: 100%;}
 	margin-bottom: 20px;
     display: inline-block;
     width: 190px;
+    margin-left: -8px;
 }
 
 .project-icons {
